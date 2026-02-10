@@ -5,8 +5,8 @@ const Events = () => {
     <section id="events">
       <h2>Events</h2>
       <ul>
-        <li>ygtfrde</li>
-        <li>nbgtfrd</li>
+        <li>destroy all social paradigms</li>
+        <li>death of technology</li>
         <img src="/images/download.jpg" alt="obrazek" />
       </ul>
     </section>
