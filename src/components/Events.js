@@ -1,13 +1,16 @@
 import React from 'react';
 
-const About = () => {
+const Events = () => {
   return (
-    <section id="about">
-      <h2>About us</h2>
-      <p>We are a community of people deeply disappointed with current state of the world. We believe it's too late for humanity to be fixed. We need to be exterminated</p>
-      <img src="/images/download.jpg" alt="obrazek" />
+    <section id="events">
+      <h2>Events</h2>
+      <ul>
+        <li>ygtfrde</li>
+        <li>nbgtfrd</li>
+        <img src="/images/download.jpg" alt="obrazek" />
+      </ul>
     </section>
   );
 };
 
-export default About;
+export default Events;

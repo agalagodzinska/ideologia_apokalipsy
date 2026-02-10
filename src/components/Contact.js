@@ -1,13 +1,18 @@
 import React from 'react';
 
-const About = () => {
+const Contact = () => {
   return (
-    <section id="about">
-      <h2>About us</h2>
-      <p>We are a community of people deeply disappointed with current state of the world. We believe it's too late for humanity to be fixed. We need to be exterminated</p>
-      <img src="/images/download.jpg" alt="obrazek" />
+    <section id="contact">
+      <h2>Contact</h2>
+      <form>
+        <input type="text" placeholder="Twoje imię" />
+        <input type="email" placeholder="Twój email" />
+        <textarea placeholder="Wiadomość"></textarea>
+        <button type="submit">Send</button>
+        <img src="/images/download.jpg" alt="obrazek" />
+      </form>
     </section>
   );
 };
 
-export default About;
+export default Contact;
